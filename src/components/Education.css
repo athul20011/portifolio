@@ -1,0 +1,158 @@
+/* .edu{
+  background-image: url('https://i.pinimg.com/originals/17/ba/39/17ba39baafe28cc6ab5b63860ca82f72.png');
+} */
+.edu{
+  padding: 0px;
+}
+.card1 {
+    border-radius: 4px;
+    z-index: 0;
+    overflow: hidden;
+    margin: 20px;
+  
+    &:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: -15px;
+      right: -20px;
+      background: #1c6776;
+      height: 32px;
+      width: 32px;
+      border-radius: 32px;
+      transform: scale(1);
+      transform-origin: 50% 50%;
+      transition: transform 0.25s ease-out;
+    }
+  
+    &:hover:before {
+      transform: scale(21);
+    }
+  }
+  
+  .card1:hover {
+    h2 {
+      transition: all 0.3s ease-out;
+      color: white;
+    }
+    h3 {
+      transition: all 0.3s ease-out;
+      color: #ffffff;
+    }
+  }
+  
+  .card2 {
+    border-radius: 4px;
+    z-index: 0;
+    overflow: hidden;
+    margin: 20px;
+  
+    &:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: -15px;
+      right: -20px;
+      background: #5fabbb;
+      height: 32px;
+      width: 32px;
+      border-radius: 32px;
+      transform: scale(1);
+      transform-origin: 50% 50%;
+      transition: transform 0.25s ease-out;
+    }
+  
+    &:hover:before {
+      transform: scale(21);
+    }
+  }
+  
+  .card2:hover {
+    h2 {
+      transition: all 0.3s ease-out;
+      color: rgba(255, 255, 255, 0.8);
+    }
+    h3 {
+      transition: all 0.3s ease-out;
+      color: #ffffff;
+    }
+  }
+  
+
+
+
+  .card3 {
+    border-radius: 4px;
+    z-index: 0;
+    overflow: hidden;
+  
+    &:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: -15px;
+      right: -20px;
+      background: #5fabbb;
+      height: 32px;
+      width: 32px;
+      border-radius: 32px;
+      transform: scale(1);
+      transform-origin: 50% 50%;
+      transition: transform 0.25s ease-out;
+    }
+  
+    &:hover:before {
+      transform: scale(21);
+    }
+  }
+  
+  .card3:hover {
+    h2 {
+      transition: all 0.3s ease-out;
+      color: rgba(255, 255, 255, 0.8);
+    }
+    h3 {
+      transition: all 0.3s ease-out;
+      color: #ffffff;
+    }
+  }
+  
+
+  
+
+  .card4 {
+    border-radius: 4px;
+    z-index: 0;
+    overflow: hidden;
+  
+    &:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: -15px;
+      right: -20px;
+      background: #267383;
+      height: 32px;
+      width: 32px;
+      border-radius: 32px;
+      transform: scale(1);
+      transform-origin: 50% 50%;
+      transition: transform 0.25s ease-out;
+    }
+  
+    &:hover:before {
+      transform: scale(21);
+    }
+  }
+  
+  .card4:hover {
+    h2 {
+      transition: all 0.3s ease-out;
+      color: rgba(255, 255, 255, 0.8);
+    }
+    h3 {
+      transition: all 0.3s ease-out;
+      color: #ffffff;
+    }
+  }
+  

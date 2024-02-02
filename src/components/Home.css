@@ -1,0 +1,109 @@
+.background{
+/* background-image: url('https://i.pinimg.com/originals/17/ba/39/17ba39baafe28cc6ab5b63860ca82f72.png');
+background-size: cover; */
+width: 100%;
+height: 80vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+transition: 0.5s;
+
+}
+.cond{
+  margin-top: -60px;
+}
+.car{
+  height: 40px;
+  padding-bottom: 30px;
+  margin-bottom: -110px;
+}
+.video-bg{
+  width: 100%;
+  position: absolute;
+  top:0;
+  z-index:-1;
+  object-fit: cover;
+}
+
+.home{
+    padding: 9%;
+    margin-left: 200px;
+    
+    
+
+}
+a{
+  font-size: 25px;
+  color: #f8f8fa;
+}
+a:hover i{
+transform: scale(1.5);
+}
+
+.cv-btn {
+  margin-top: 1.5rem;
+  padding: 0.7em 2.5em;
+  border-radius: 25px;
+  background-color: #f9fbfc;
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(2, 2, 2);
+  border: 0;
+}
+
+.cv-btn:hover {
+  box-shadow: 0 0 10px #fefefe;
+  transition: all .3s ease-in-out;
+
+}
+.h1{
+  color: white;
+  font-size: xx-large;
+}
+
+h1,h2,:hover{
+    color: #7490ec;
+  -webkit-transition: color 1s ease;
+  -moz-transition: color 1s ease;
+  -ms-transition: color 1s ease;
+  -o-transition: color 1s ease;
+  transition: color 1s ease;
+  cursor: pointer;
+}
+
+.blue-bg-outer {
+  width: 21em;
+  height: 21em;
+  border-radius: 50%;
+  background: #f8f8fa;
+  display: grid;
+  place-items: center;
+}
+
+.white-bg {
+  width: 25.3em;
+  height: 16.8em;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin-left: -23px;
+  margin-top: 12px;
+  
+}
+
+.blue-bg {
+  width: 18.75em;
+  height: 18.75em;
+  border-radius: 50%;
+  background: var(--primary-color);
+}
+
+.blue-bg img {
+  position: relative;
+  bottom: 36px;
+  right: 20px;
+  width: 318px;
+  height: 330px;
+  border-radius: 50%;
+}
